@@ -231,3 +231,23 @@ elif page == "✅ Recommendations":
     - **Knowledge Sharing:** Spread practices from Asia (high recovery) globally.  
     - **Long-term:** Build resilient healthcare systems & regional hubs for future pandemics.  
     """)
+
+
+# =========================
+# Background Image with Light Text and Dark Sidebar Widgets
+# =========================
+page_bg_img = """
+<style>
+/* Main app background */
+[data-testid="stAppViewContainer"] {
+    background-image: url("https://images.pexels.com/photos/3936358/pexels-photo-3936358.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #f1f1f1;  /* light text */
+}
+</style>
+"""
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
