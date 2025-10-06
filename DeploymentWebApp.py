@@ -240,7 +240,7 @@ page_bg_img = """
 <style>
 /* Main app background */
 [data-testid="stAppViewContainer"] {
-    background-image: url("https://static.scientificamerican.com/sciam/cache/file/AFBE130D-2000-4BB5-A1CFE90684A12442_source.jpg?w=1200");
+    background-image: url("https://wholesale.banking.societegenerale.com/typo3temp/assets/_processed_/3/2/csm_GettyImages-1420054557-350-100_Header_web_1742917813_cd11b67f55.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -250,6 +250,7 @@ page_bg_img = """
 """
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
+
 
 
 
