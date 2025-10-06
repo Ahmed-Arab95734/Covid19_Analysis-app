@@ -240,7 +240,7 @@ page_bg_img = """
 <style>
 /* Main app background */
 [data-testid="stAppViewContainer"] {
-    background-image: url("https://images.pexels.com/photos/3936358/pexels-photo-3936358.jpeg");
+    background-image: url("https://scwcontent.affino.com/AcuCustom/Sitename/DAM/022/data_graph__virus_Adobe.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -250,4 +250,5 @@ page_bg_img = """
 """
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
+
 
